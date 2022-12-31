@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Career Guidance</title>
+  </head>
+  <body>
+    <nav class="navbar h-nav" id="nav">
+      <div class="nav-list v-class" id = "nav-elem">
+        <li><a href = "home.html">HOME</a></li>
+        <li><a href = "#">CAREER OPTIONS</a></li>
+        <li><a href = "#">GOVT EXAMS</a></li>
+        <li><a href = "#" >CHECK JOBS</a></li>
+      </div>
+      <div class="right-nav-btn v-class" id = "nav-btn">  
+        <li><a href = "contact.html" id = "nav-btn1">CONTACT US</a></li> 
+        <li><a href = "about.html" id = "nav-btn2">ABOUT US</a></li> 
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+<section class="about-head">
+    <h1>More About us !</h1>
+</section>
+<!-- adding content in the about Page -->
+<div class="about-row ">
+<div class="about-left">
+<h1>
+Talented Faculty
+</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem veritatis obcaecati quasi, similique assumenda temporibus nulla ducimus minima, quia officia ipsum aperiam, animi laborum! Autem, deleniti? Est officiis nihil minima.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse totam perspiciatis sint vel? Maiores blanditiis nihil, consequuntur nisi delectus omnis veniam laborum, mollitia dolorum ipsam assumenda eum error soluta?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatum, impedit sed corporis vitae error. Laudantium, officia tempora sunt eum ullam ex? Facere, dignissimos reprehenderit amet magnam fugit accusantium nihil?
+</p>
+</div>
+<div class="about-right">
+<img src="Images/about.jpg" alt="">
+</div>
+</div>
+<div class="about-row">
+<div class="about-right">
+<img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/Slider/assignments.png" alt="">
+</div>
+<div class="about-left">
+<h1>
+Pratical Learning
+</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem veritatis obcaecati quasi, similique assumenda temporibus nulla ducimus minima, quia officia ipsum aperiam, animi laborum! Autem, deleniti? Est officiis nihil minima.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse totam perspiciatis sint vel? Maiores blanditiis nihil, consequuntur nisi delectus omnis veniam laborum, mollitia dolorum ipsam assumenda eum error soluta?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatum, impedit sed corporis vitae error. Laudantium, officia tempora sunt eum ullam ex? Facere, dignissimos reprehenderit amet magnam fugit accusantium nihil?
+</p>
+</div>
+</div>
+<div class="about-row ">
+    <div class="about-left">
+    <h1>
+    Talented Faculty
+    </h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem veritatis obcaecati quasi, similique assumenda temporibus nulla ducimus minima, quia officia ipsum aperiam, animi laborum! Autem, deleniti? Est officiis nihil minima.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse totam perspiciatis sint vel? Maiores blanditiis nihil, consequuntur nisi delectus omnis veniam laborum, mollitia dolorum ipsam assumenda eum error soluta?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatum, impedit sed corporis vitae error. Laudantium, officia tempora sunt eum ullam ex? Facere, dignissimos reprehenderit amet magnam fugit accusantium nihil?
+    </p>
+    </div>
+    <div class="about-right">
+    <img src="Images/about.jpg" alt="">
+    </div>
+    </div>
+    <div class="about-row">
+        <div class="about-right">
+        <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/Slider/assignments.png" alt="">
+        </div>
+        <div class="about-left">
+        <h1>
+        Pratical Learning
+        </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem veritatis obcaecati quasi, similique assumenda temporibus nulla ducimus minima, quia officia ipsum aperiam, animi laborum! Autem, deleniti? Est officiis nihil minima.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse totam perspiciatis sint vel? Maiores blanditiis nihil, consequuntur nisi delectus omnis veniam laborum, mollitia dolorum ipsam assumenda eum error soluta?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatum, impedit sed corporis vitae error. Laudantium, officia tempora sunt eum ullam ex? Facere, dignissimos reprehenderit amet magnam fugit accusantium nihil?
+        </p>
+        </div>
+      </div>
+        <section class="footer">
+            <div class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo ex dolore perferendis a
+              recusand</div>
+            <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-university" aria-hidden="true"></i>
+              <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+            </div>
+          </section>
+<script>
+burger = document.querySelector('.burger');
+navbar = document.querySelector('.navbar');
+navList = document.querySelector('.nav-list');
+rightnav = document.querySelector('.right-nav-btn');
+
+burger.addEventListener('click' , ()=> {
+    navList.classList.toggle('v-class');
+    rightnav.classList.toggle('v-class');
+    navbar.classList.toggle('h-nav');
+})
+</script>
+</body>
+</html>

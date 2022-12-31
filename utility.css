@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.row {
+    display: flex;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-2{
+    flex-basis: 48%;
+}
+.flex-3{
+    flex-basis: 39%;
+}
+.border{
+    border: 2px solid red;
+}
+.nav-btn{
+    padding: 12px;
+    margin: 9px;
+    font-size: 0.8rem;
+    background-color: orangered;
+    color: white;
+    font-weight: 800;
+    border: 2px solid orangered;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    opacity: 0.5;
+}
+.row{
+    display: flex;
+}
