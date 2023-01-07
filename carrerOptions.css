@@ -1,0 +1,87 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+.head-cont {
+ width: 80vw;
+ margin: auto;
+ padding: 13px;
+margin-top: 4rem;
+}
+
+.head-cont h1 {
+ line-height: 3rem;
+ font-weight: 800;
+ font-size: 3rem;
+}
+
+.head-cont p {
+ text-align: left;
+ width: 50vw;
+ padding: 20px;
+ margin: auto;
+ line-height: 20px;
+}
+
+.opt-cont {
+ /* min-height: 70vh; */
+ width: 97vw;
+ margin: auto;
+ margin-top: 3rem;
+ padding: 12px;
+ box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+ border: 3px solid black;
+}
+
+.opt-btn {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* position: relative; */
+}
+
+.opt-btn-item {
+ font-size: 1.4rem;
+ font-weight: 12px;
+ padding: 19px;
+ padding-bottom: 9px;
+ padding-top: 9px;
+ flex-basis: 33%;
+ text-align: center;
+ margin: 12px;
+ cursor: pointer;
+ font-size: 800;
+ font-weight: 800;
+ border-radius: 7px;
+ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+ border: 2px solid orangered;
+
+}
+
+.opt-mov-btn {
+ background-color: orangered;
+ position: absolute;
+ width: 31%;
+ margin: 12px;
+ font-size: 800;
+ font-weight: 800;
+ color: white;
+ transition: all .9s;
+}
+
+.opt-cont-item {
+ /* position: absolute; */
+ display: none;
+ margin-top: 3rem;
+ /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+ padding: 21px;
+}
+
+/* #job-opt{
+
+} */
+#study-opt {
+ display: block;
+}
